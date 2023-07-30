@@ -1,10 +1,11 @@
 import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
+import theme from '@hookup/utils/theme';
 
 const Walkthrough = () => {
   return (
     <View style={styles.parentContainer}>
-      <Text style={{color: '#000'}}>Walkthrough</Text>
+      <Text style={{color: theme.BLACK}}>Walkthrough</Text>
     </View>
   );
 };

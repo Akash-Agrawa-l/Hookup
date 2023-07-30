@@ -1,3 +1,6 @@
 {
-    "json.validate.enable": false
+    "json.validate.enable": false,
+    "typescript.preferences.quoteStyle": "double",
+    "javascript.preferences.quoteStyle": "double",
+    "prettier.embeddedLanguageFormatting": "off"
 }
