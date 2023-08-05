@@ -1,5 +1,5 @@
-import React from 'react';
-import RootRouter from './src/router';
+import RootRouter from "@hookup/router";
+import React from "react";
 
 const App = () => {
   return <RootRouter />;
